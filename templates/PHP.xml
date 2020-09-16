@@ -1,0 +1,12 @@
+<templateSet group="PHP">
+  <template name="dataProvider" value="/**&#10; * providing data for test_*&#10; * @return array|array[]&#10; * @see test*&#10; */&#10;public function providingData_*()&#10;{&#10;    return array([]);&#10;}" description="data provider" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="@paramRequest" value="* &lt;ul&gt;&#10;*  &lt;li&gt;&lt;i&gt;TYPE&lt;/i&gt; $_REQUEST['&lt;b&gt;VAR&lt;/b&gt;'] &lt;i&gt;(optional)&lt;/i&gt; DESCRIPTION&lt;/li&gt;&#10;* &lt;/u&gt;" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+</templateSet>

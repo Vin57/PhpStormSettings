@@ -1,0 +1,3 @@
+de.espend.idea.php.annotation
+fr.adrienbrault.idea.symfony2plugin
+ru.adelf.idea.dotenv
